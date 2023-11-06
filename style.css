@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+h1 {
+  font-size: 3rem;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+#begin {
+  color: #4f9c41;
+}
+input {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1.5px solid hsl(0, 0%, 86%);
+  font-size: 1.5rem;
+  text-align: center;
+}
+button {
+  margin-top: 0.5rem;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  min-width: 200px;
+  background: #4f9c41;
+  color: white;
+}
+button:hover {
+  cursor: pointer;
+  background: #1b1c1b;
+}
+P {
+  font-size: 2rem;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+#git {
+  margin-right: 20px;
+}
+img:hover {
+  position: relative;
+  cursor: pointer;
+  top: -5%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app" id="Home">
+      <h1>Enter A Number And Hit <span id="begin">Begin</span> !</h1>
+      <input type="number" class="input" value="0" id="number" />
+      <button type="button" id="btn">Begin</button>
+    </div>
+    <div class="app" id="Game" style="display: none">
+      <h1 id="gameHeading"></h1>
+      <p id="gen-Number"></p>
+      <button type="button" id="btn-higher" class="controls">Higher</button>
+      <button type="button" id="btn-lower" class="controls">Lower</button>
+      <button type="button" id="btn-another-guess" style="display: none">
+        Take Another Guess
+      </button>
+    </div>
+    <div class="social">
+      <div>
+        <img src="./assets/github_icon.png" alt="github icon" id="git" />
+      </div>
+      <div>
+        <img src="./assets/linkedin_icon.png" alt="linkedin icon" id="linkedin" />
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
